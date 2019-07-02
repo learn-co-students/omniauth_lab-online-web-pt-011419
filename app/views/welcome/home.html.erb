@@ -1,9 +1,2 @@
-<% if @user %>
+<a href='/auth/facebook'>Login with Facebook</a>
 
-    <h1> <%= @user.name %>
-    <h2> Email: <%= @user.email %>
-    <h2> Facebook UID: <%= @user.uid %><br>
-    <img src= "<%= @user.image %>">
-<% else %>
-    <a href='/auth/facebook'>Login with Facebook</a>
-<% end %>
