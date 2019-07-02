@@ -5,4 +5,6 @@ describe "welcome/home.html.erb" do
   #  render
   #  expect(rendered).to have_link('Login with Facebook', :href => '/auth/facebook')
   # end
+
+  ## AAQ Also was unable to reolve the issue
 end
