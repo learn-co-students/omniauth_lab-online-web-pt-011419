@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+# dotenv
+gem 'dotenv-rails'
+# pry
+gem 'pry'
+# omniauth
+gem 'omniauth'
+gem 'omniauth-facebook'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 gem 'bootsnap'
